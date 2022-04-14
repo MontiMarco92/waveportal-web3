@@ -9,7 +9,7 @@ export default function App() {
 	const [msgText, setmsgText] = useState("");
 	const [miningMsg, setMiningMsg] = useState(false);
 
-	const contractAddress = "0x74a7D697e4AdEf71E9D55a1B0FDA95c40020F81e";
+	const contractAddress = "0xe4e2e4DB3E24156Ed592d7eD6f8223cF3F63Fa9A";
 	const contractABI = abi.abi;
 
 	const checkIfWalletIsConnected = async () => {
